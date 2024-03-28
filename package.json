@@ -2,7 +2,7 @@
   "name": "roleterminal",
   "version": "1.5.5",
   "description": "In-game tool/game for use at Blodsband Reloaded event. Dependency: roleHaven",
-  "author": "Carmilla Mina Jankovic <carmillam@icloud.com>",
+  "author": "Carmilla Mina Storm <carmillam@icloud.com>",
   "private": true,
   "scripts": {
     "dev": "./node_modules/roleHaven/start.sh && MODE=dev MAINJSNAME=main MAINCSSNAME=main INDEXNAME=main node app",
@@ -28,6 +28,6 @@
     "eslint-plugin-react": "^7.18.0"
   },
   "dependencies": {
-    "rolehaven": "https://github.com/yxeri/roleHaven.git#bbr-new"
+    "rolehaven": "https://github.com/yxeri/roleHaven.git#outpost"
   }
 }
