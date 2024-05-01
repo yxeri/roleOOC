@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "css-element-queries": "^1.2.3",
     "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "re-reselect": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -21,10 +21,10 @@
     "react-rnd": "^10.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "redux": "^4.0.5",
+    "redux": "^4.2.1",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
-    "rolehaven": "git://github.com/yxeri/roleHaven.git#develop",
+    "rolehaven": "git+https://github.com/yxeri/roleHaven.git#outpost",
     "seamless-scroll-polyfill": "^1.2.3"
   },
   "scripts": {
@@ -60,5 +60,9 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.3",
     "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "volta": {
+    "node": "10.16.3",
+    "yarn": "1.22.22"
   }
 }

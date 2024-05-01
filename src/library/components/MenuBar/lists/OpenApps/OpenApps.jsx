@@ -120,16 +120,16 @@ const OpenApps = () => {
           </Button>
           <span>Files</span>
         </ListItem>
-        <ListItem key="worldMap">
-          <Button
-            key="worldMap"
-            className={`${order.get(WindowTypes.WORLDMAP) && order.get(WindowTypes.WORLDMAP).index === order.size ? 'active' : ''}`}
-            onClick={() => changeOrder({ id: WindowTypes.WORLDMAP, value: { type: WindowTypes.WORLDMAP } })}
-          >
-            <Map />
-          </Button>
-          <span>Map</span>
-        </ListItem>
+        {/*<ListItem key="worldMap">*/}
+        {/*  <Button*/}
+        {/*    key="worldMap"*/}
+        {/*    className={`${order.get(WindowTypes.WORLDMAP) && order.get(WindowTypes.WORLDMAP).index === order.size ? 'active' : ''}`}*/}
+        {/*    onClick={() => changeOrder({ id: WindowTypes.WORLDMAP, value: { type: WindowTypes.WORLDMAP } })}*/}
+        {/*  >*/}
+        {/*    <Map />*/}
+        {/*  </Button>*/}
+        {/*  <span>Map</span>*/}
+        {/*</ListItem>*/}
         {accessLevel >= AccessLevels.STANDARD && (
           <ListItem key="wallet">
             <Button
@@ -188,18 +188,18 @@ const OpenApps = () => {
           </Button>
           <span>Wrecker Central</span>
         </ListItem>
-        <ListItem
-          className="faded"
-          key="love"
-        >
-          <Button
-            key="love"
-            onClick={() => {}}
-          >
-            <Heart />
-          </Button>
-          <span>Love Bureau</span>
-        </ListItem>
+        {/*<ListItem*/}
+        {/*  className="faded"*/}
+        {/*  key="love"*/}
+        {/*>*/}
+        {/*  <Button*/}
+        {/*    key="love"*/}
+        {/*    onClick={() => {}}*/}
+        {/*  >*/}
+        {/*    <Heart />*/}
+        {/*  </Button>*/}
+        {/*  <span>Love Bureau</span>*/}
+        {/*</ListItem>*/}
         {otherWindows}
       </List>
     </div>

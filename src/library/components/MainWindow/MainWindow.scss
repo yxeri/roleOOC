@@ -3,7 +3,7 @@
 #MainWindow {
   position: relative; /* Needed for react-draggable. It will assume main is the parent */
   background-color: var(--background-color);
-  height: 100%;
+  height: calc(100% - (var(--padding) * 6) - var(--menu-bar-height));
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;

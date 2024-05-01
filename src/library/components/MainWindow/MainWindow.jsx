@@ -56,7 +56,7 @@ const MainWindow = () => {
         break;
       }
       case WindowTypes.WORLDMAP: {
-        windows.push(<WorldMap key={key} id={key} index={value.index} />);
+        // windows.push(<WorldMap key={key} id={key} index={value.index} />);
 
         break;
       }

@@ -7,7 +7,6 @@ import Button from '../Button/Button';
 import { ReactComponent as ImageIcon } from '../../../../icons/image.svg';
 
 import './ImageUpload.scss';
-import 'react-image-crop/lib/ReactCrop.scss';
 import Image from '../Image/Image';
 
 const ImageUpload = ({
