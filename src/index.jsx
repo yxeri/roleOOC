@@ -13,6 +13,12 @@ const ElementQueries = require('css-element-queries');
 polyfill();
 ElementQueries.ElementQueries.listen();
 
+document.body.addEventListener('click', () => {
+  if (!document.fullscreenElement && document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen();
+  }
+});
+
 render(
   <Provider store={store}>
     <App />
